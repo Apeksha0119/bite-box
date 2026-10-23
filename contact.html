@@ -41,13 +41,43 @@
         <input type="date" id="delivery date" name="delivery date">
 
         <lable for="food">select food </lable>
-        <select id-="food" name="food">
+        <select id="food" name="food">
         <option>VEG PIZZA</option>
         <option>CHEESE BURGER</option>
         <option>white sause pasta</option>
         <option>veg grilled sandwich</option>
         <option>chocolate sandwich</option>
         </select>
+        <h3>payment method</h3>
+        <input type="radio" id="cash" name="payment">
+        <label for="cash">cash</label>
+        <br>
+
+        <input type="radio" id="card" name="payment">
+        <lable for="card">card</lable>
+        <br>
+
+        <input type="radio" id="upi" name="payment">
+        <lable for="upi">upi</lable>
+        <br><br>
+        <h3>Extra</h3>
+        <input type="checkbox" id="drink" name="extra">
+        <lable for="cheese">extra cheese</lable>
+        <br>
+
+        <input type="checkbox" id="drink" name="extra">
+        <lable for="drink">cold drink</lable>
+        <br>
+
+        <input type="checkbox" id="dessert" name="extra">
+        <lable for="dessert">dessert</lable>
+        <br><br>
+        <h3>delivery instructions</h3>
+        <label for="address">delivery address</label><br>
+        <textarea id="address" name="address" rows="5" cols="40"></textarea>
+        <br><br>
+        <input type="submit" value="place order">
+        <input type="submit" value="clear form">
     </form>
 </body>
 </html>
